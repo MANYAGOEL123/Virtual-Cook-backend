@@ -31,8 +31,8 @@ app.add_middleware(
 # Gemini LLM setup
 llm = LLM(
     model="gemini/gemini-1.5-flash",
-    api_key=api_key,
-    verbose=True,
+    provider="google",
+    api_key=api_key
 )
 
 # Define AI Agent
