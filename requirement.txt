@@ -1,5 +1,5 @@
 fastapi
-pyantic
-dotenv
+pydantic
+python-dotenv
 crewai
 uvicorn
